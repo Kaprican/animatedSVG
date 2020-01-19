@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ff7260;
+}
+
+svg {
+    width: 240;
+    height: 300;
+    fill: #fff5c3;
+}
+
+svg > rect {
+    width: 10%;
+    rx: 5%;
+}
+
+.first {
+    x: 5%;
+}
+
+.second {
+    x: 25%;
+}
+
+.third {
+    x: 45%;
+}
+
+.fourth {
+    x: 65%;
+}
+
+.fifth {
+    x: 85%;
+}

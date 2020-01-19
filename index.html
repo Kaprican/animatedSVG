@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Анимация SVG</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <svg>
+        <rect class="first">
+            <animate attributeName="height" values="20%; 70%; 20%" dur="0.7s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="40%; 15%; 40%" dur="0.7s" repeatCount="indefinite"/>
+        </rect>
+
+        <rect class="second">
+            <animate attributeName="height" values="20%; 70%; 20%" dur="0.7s" begin="0.15s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="40%; 15%; 40%" dur="0.7s" begin="0.15s" repeatCount="indefinite"/>
+        </rect>
+
+        <rect class="third">
+            <animate attributeName="height" values="20%; 70%; 20%" dur="0.7s" begin="0.3s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="40%; 15%; 40%" dur="0.7s" begin="0.3s" repeatCount="indefinite"/>
+        </rect>
+
+        <rect class="fourth">
+            <animate attributeName="height" values="20%; 70%; 20%" dur="0.7s" begin="0.45s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="40%; 15%; 40%" dur="0.7s" begin="0.45s" repeatCount="indefinite"/>
+        </rect>
+
+        <rect class="fifth">
+            <animate attributeName="height" values="20%; 70%; 20%" dur="0.7s" begin="0.6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="40%; 15%; 40%" dur="0.7s" begin="0.6s" repeatCount="indefinite"/>
+        </rect>
+    </svg>
+</body>
+</html>
